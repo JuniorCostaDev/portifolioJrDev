@@ -1,0 +1,181 @@
+@media (max-width: 950px) {
+  .template--grid {
+    grid-template-columns: 1fr;
+  }
+  .main__banner {
+    text-align: center;
+    justify-items: center;
+  }
+
+  .banner__title::before {
+    display: none;
+  }
+
+  .banner__img {
+    display: none;
+  }
+
+  .exp__time-work {
+    position: static;
+    text-align: left;
+    grid-row: 4;
+  }
+
+  .exp__title {
+    width: 11ch;
+    font-size: 4.4rem;
+    color: #9d4edd;
+  }
+
+  .exp__about {
+    font-size: 2rem;
+    max-width: 100%;
+  }
+  .college__courses h3::before {
+    left: 150px;
+  }
+
+  .college__languages h3::before {
+    left: 70px;
+  }
+
+  .college__title {
+    color: #f5e3ff;
+    width: 9ch;
+    font-size: 4.4rem;
+  }
+  .college__about {
+    font-size: 2rem;
+  }
+
+  .college::after {
+    display: none;
+  }
+
+  .footer {
+    row-gap: 20px;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+  .footer__about {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .footer__contact {
+    font-size: 2.8rem;
+    justify-self: center;
+  }
+
+  .footer__copy {
+    grid-column: 1 / 1;
+    margin: 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  .header {
+    flex-direction: column;
+    row-gap: 20px;
+    padding-top: 5px;
+    align-items: center;
+  }
+
+  .header__logo {
+    padding-left: 20px;
+  }
+
+  .banner__title {
+    font-size: 6.2rem;
+  }
+
+  .exp {
+    justify-items: center;
+  }
+
+  .exp__about {
+    text-align: center;
+  }
+
+  .college__title {
+    justify-self: center;
+  }
+
+  .college__about {
+    text-align: center;
+  }
+
+  .college__cards {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 20px auto;
+    row-gap: 10px;
+  }
+
+  .college__cards li {
+    text-align: center;
+  }
+
+  .footer {
+    margin: 0;
+  }
+}
+
+@media (max-width: 530px) {
+  .nav__list {
+    column-gap: 10px;
+  }
+
+  .nav__list li a{
+    padding: 5px 10px;
+    
+  }
+
+  .main__banner {
+    padding-bottom: 40px;
+  }
+
+  .banner__title {
+    font-size: 4.8rem;
+  }
+
+  .exp {
+    padding-top: 40px;
+  }
+
+  .exp__works {
+    grid-template-columns: 1fr;
+  }
+
+  .exp__time-work {
+    grid-row: 6;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  .footer__copy {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .nav__list {
+    column-gap: 5px;
+  }
+
+  .nav__list li a{
+    padding: 2px 4px;
+    font-size: 1.6rem;
+    
+  }
+
+  .banner__title {
+    font-size: 4rem;
+  }
+
+  .banner__location {
+    font-size: 1.8rem;
+  }
+}
