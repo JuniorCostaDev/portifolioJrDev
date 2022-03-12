@@ -82,6 +82,10 @@
     align-items: center;
   }
 
+  .header .nav__item a {
+    background-color: #fbf5ff;
+  }
+
   .header__logo {
     padding-left: 20px;
   }
@@ -94,17 +98,12 @@
     justify-items: center;
   }
 
-  .exp__title {
-    text-align: center;
-  }
-
   .exp__about {
     text-align: center;
   }
 
   .college__title {
     justify-self: center;
-    text-align: center;
   }
 
   .college__about {
@@ -125,10 +124,6 @@
 
   .footer {
     margin: 0;
-  }
-
-  .footer__contact {
-    text-align: center;
   }
 }
 
@@ -171,17 +166,17 @@
 
 @media (max-width: 400px) {
   .nav__list {
-    column-gap: 5px;
+    column-gap: 8px;
   }
 
   .nav__list li a{
-    padding: 2px 4px;
+    padding: 8px 4px;
     font-size: 1.6rem;
     
   }
 
   .banner__title {
-    font-size: 3.8rem;
+    font-size: 4rem;
   }
 
   .banner__location {

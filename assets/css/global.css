@@ -1,2 +1,326 @@
-@import url(style.css);
-@import url(media.css);
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'fira sans', sans-serif;
+  font-size: 1.4rem;
+  color: #141414;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+.container--width{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container--light {
+  background-color: #F5E3FF;
+}
+
+.container--dark {
+  background-color: #9D4EDD;
+}
+
+.container--strongDark {
+  background-color: #10002b;
+}
+
+.template--grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 10rem;
+}
+
+.template--margin-botom {
+  margin-bottom: 40px;
+}
+
+.template--padding {
+  padding: 6rem 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.nav__list {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.nav__item a {
+  font-size: 1.8rem;
+  color: #5A189A;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+}
+
+.nav__item a:hover {
+  border: 2px solid #9D4EDD;
+}
+
+
+.banner__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 7rem;
+  position: relative;
+  z-index: 2;
+}
+
+.banner__title::before {
+  content: "";
+  display: block;
+  background: url(../img/detalhes.svg) no-repeat center;
+  width: 140px;
+  height: 110px;
+  position: absolute;
+  top: -30px;
+  left: -70px;
+  z-index: -1;
+}
+
+.banner__location {
+  margin-top: 2rem;
+  font-size: 2.4rem;
+  color: #525252;
+}
+
+.exp__title {
+  font-size: 14rem;
+  word-wrap: break-word;
+  font-weight: bold;
+  width: 3ch;
+  color: #e5b7ff;
+  
+}
+
+.exp__about {
+  max-width: 40ch;
+  margin: 3rem 0 6rem 0rem;
+  font-size: 2.4rem;
+  color: #525252;
+  line-height: 1.33;
+
+}
+.exp__about strong {
+  color: #141414;
+}
+
+.exp__works::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(180deg, #B629F8 0%, #800ADD 100%);
+}
+
+.exp__works {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 2rem;
+  position: relative;
+  padding: 2rem;
+  background-color: #f0d1ff;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+
+.exp__works h3 {
+  font-size: 1.8rem;
+}
+
+.exp__time-work {
+  position: absolute;
+  left: -70px;
+  top: 20px;
+  width: 60px;
+  text-align: right;
+}
+
+.exp__work-title {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.exp__stacks {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.exp__stacks li {
+  background-color: #F5E3FF;
+  padding: 5px 10px;
+}
+
+.college {
+  color: #E0AAFF;
+  position: relative;
+}
+
+.college::after {
+  content: "";
+  position: absolute;
+  background: url(../img/detalhes.svg) no-repeat center;
+  width: 128px;
+  height: 128px;
+  bottom: -64px;
+  left: 0;
+}
+
+
+.college__title {
+  font-size: 14rem;
+  word-wrap: break-word;
+  font-weight: bold;
+  width: 3ch;
+  color: #c77dff;
+}
+
+.college__about {
+  font-size: 2.4rem;
+  margin-top: 50px;
+}
+
+.college__about strong {
+  color: #ecccff;
+}
+
+.college__cards {
+  display: flex;
+  column-gap: 2rem;
+  font-size: 1.8rem;
+}
+
+.college__cards li {
+  padding: 20px;
+  background: rgb(90,24,154);
+  background: linear-gradient(190deg, rgba(90,24,154,0.5) 30%, rgba(36,0,70,0.5) 70%);
+  border-radius: 4px;
+}
+
+.college__cards li h3 {
+  color: #ecccff;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  position: relative;
+}
+
+.college__cards li h3::before {
+  content: '';
+  width: 4px;
+  height: 20px;
+  left: -24px;
+  position: absolute;
+  background: linear-gradient(190deg, #B629F8 0%, #800ADD 100%);
+
+}
+
+.college__cards li span:first-child {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.college__courses {
+  font-size: 1.8rem;
+}
+
+.college__courses h3 {
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.college__courses h3::before {
+  content: '';
+  background-image: url(../img/cursos.svg);
+  position: absolute;
+  display: block;
+  width: 24px;
+  height: 24px;
+  left: -30px;
+  top: -3px;
+}
+
+.college__courses li{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.college__languages {
+  font-size: 1.8rem;
+}
+
+.college__languages h3 {
+  font-size: 1.6rem;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.college__languages h3::before {
+  content: '';
+  background-image: url(../img/idiomas.svg);
+  position: absolute;
+  display: block;
+  width: 24px;
+  height: 24px;
+  left: -30px;
+  top: -3px;
+}
+
+.college__languages li {
+  margin-bottom: 20px;
+}
+
+.college__languages li span:first-child {
+  color: #ecccff;
+  font-weight: 600;
+}
+
+.footer {
+  color: #E0AAFF;
+}
+
+.footer__about{
+  font-size: 2.4rem;
+}
+
+.footer__contact {
+  font-size: 3.6rem;
+  color: #ecccff;
+}
+
+.footer__copy {
+  grid-column: 1 / 3;
+  justify-self: center;
+  font-size: 2rem;
+  color: #ecccff;
+  margin-top: 80px;
+}
+
+
+
+
+
+
+
