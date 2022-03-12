@@ -98,12 +98,17 @@
     justify-items: center;
   }
 
+  .exp__title {
+    text-align: center;
+  }
+
   .exp__about {
     text-align: center;
   }
 
   .college__title {
     justify-self: center;
+    text-align: center;
   }
 
   .college__about {
