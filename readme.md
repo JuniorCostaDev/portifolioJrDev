@@ -1,7 +1,7 @@
 
 <p align="center">
-  <a href="#-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-stack-utilizadas">Stacks</a>
+  <a href="#%EF%B8%8F-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-stacks-utilizadas">Stacks</a>
 </p>
 
 # Landing page portfólio fictício
