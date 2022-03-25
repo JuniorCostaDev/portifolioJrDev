@@ -1,18 +1,22 @@
 
+<p align="center">
+  <a href="#🖥️📱-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#👨‍💻-stack-utilizadas">Stacks</a>
+</p>
 
-# Landing page JrDev portifólio
-Um portifólio fictício de um desenvolvedor front-end / web design, exércicio prático do curso da origamid.
+# Landing page portfólio fictício
+Um portfólio fictício de um desenvolvedor front-end / web design, exercício prático do curso da origamid.
 
-## 📝Aprendizados
-Nesse projeto aprendi sobre pseudo elementos _**before**_ e **after**, unidade _**ch**_, _**responsividade**_, **separar folhas do css** para que fique mais organizado e _**facilite na manutenção caso precise refatorar algo**_, primeiro projeto que implementei arquitetura _**BEM**_ e tentei colocar todas as _**classes em inglês**_, utilização do clean css, pacote do _**npm**_ para minificar otimizando o arquivo.
-## 🖥️Desktop preview e 📱Mobile preview
+## 📝 Aprendizados
+Nesse projeto aprendi sobre pseudo-elementos _**before**_ e _**after**_, _**Unidades relativas**_, _**responsividade**_, **Folhas de estilo em módulos** para que fique mais organizado e _**facilite na manutenção caso precise refatorar algo**_, primeiro projeto que implementei arquitetura _**BEM**_ e tentei colocar todas as _**classes em inglês**_, utilização do pacote cleancss-cli, pacote do _**npm**_ para minificar os arquivos CSS.
 
+## 🖥️📱 Preview
 ### Link do projeto: <https://juniorcostadev.github.io/portifolioJrDev/>
-![App Screenshot](.github/gifportifolio.gif)
-![App Screenshot](.github/portifoliomobile.gif)
+![App gif](.github/gifportifolio.gif)
+![App gif](.github/portifoliomobile.gif)
 
-## 👨‍💻Stack utilizadas
-  ### front-end:
+## 👨‍💻 Stacks utilizadas
+  ### Front-end:
   #### HTML:
   * HTML semântico
   * SEO
@@ -25,7 +29,7 @@ Nesse projeto aprendi sobre pseudo elementos _**before**_ e **after**, unidade _
   * Media Queries
 
 ## 🎨 Inspiração:
-figma: <https://www.figma.com/file/HqCW8jiJL8gEcn52qWZBUh/Projeto-portif%C3%B3lio-origamid>
+Figma: <https://www.figma.com/file/HqCW8jiJL8gEcn52qWZBUh/Projeto-portif%C3%B3lio-origamid>
 
 
 
