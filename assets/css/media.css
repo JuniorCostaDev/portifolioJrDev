@@ -2,6 +2,7 @@
   .template--grid {
     grid-template-columns: 1fr;
   }
+  
   .main__banner {
     text-align: center;
     justify-items: center;
@@ -89,6 +90,7 @@
   .header__logo {
     padding-left: 20px;
   }
+
 
   .banner__title {
     font-size: 6.2rem;
